@@ -11,8 +11,28 @@
     display: flex;
 }
 
-.img{
+.box .img{
     width: 40%;
+    background-image: url(images/nathan-dumlao-XOhI_kW_TaM-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: relative;
+}
+.box .img p{
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-size: 10px;
+    width: 30%;
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    background-color: white;
+    padding: 5px;
+    font-weight: bold;
+    line-height: 15px;
 }
 
 
@@ -21,4 +41,55 @@
 
 .info{
     width: 60%;
+}
+
+.info .title{
+    position: relative;
+}
+
+.info .title .star{
+    position: absolute;
+    left: -70px;
+    top: 50px;
+    background-color: white;
+    padding: 15px 10px;
+}
+
+.info .title .star i{
+  color: orangered;
+  font-size: 10px;
+}
+.info .title .star span{
+    font-size: 10px;
+}
+
+.info .title .star h4{
+    width: 70%;
+    font-weight: bolder;
+}
+
+.info .settime{
+    position: relative;
+}
+
+.info .settime .time{
+    position: absolute;
+    top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info .settime .time .icon i{
+    font-size: 10px;
+    color: orange;
+    margin-right: 8px;
+}
+
+.info .settime .time .total h6{
+    font-size: 8px;
+}
+.info .settime .time .total p{
+    font-size: 8px;
+    color: orange;
 }
